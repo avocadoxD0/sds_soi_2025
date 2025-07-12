@@ -44,7 +44,7 @@ void setup() {
   mySensor.beginGyro();
   mySensor.beginMag();
 
-  pinMode(IN!, OUTPUT);
+  pinMode(IN1, OUTPUT);
   pinMode(IN2, OUTPUT);
 
   Serial.println("Reaction wheel control started.");
